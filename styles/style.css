@@ -13,8 +13,9 @@
 
 
 * {
-    margin: 100;
-    padding: 100;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -23,9 +24,9 @@ body{
     color: var(--cor-secundária);
 }
 
-.cabeçalho {
+/* .cabeçalho {
     padding: 2% 0% 0% 15%;
-}
+} */
 
 .cabeçalho__menu {
     display: flex;
